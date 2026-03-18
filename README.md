@@ -1,5 +1,7 @@
 # Phylax — Hardened Password Manager
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A self-hosted password manager with a Rust backend and a clean SvelteKit + shadcn-svelte UI, accessible from any device.
 
 ## Screenshots
@@ -141,3 +143,18 @@ cd backend && cargo test
 ```
 
 All cryptographic primitives (Argon2id, AES-256-GCM, key derivation, password generation) are covered by unit tests.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues for bug reports, feature requests, or security concerns. To contribute code:
+
+1. Fork the repository and create a feature branch.
+2. Make your changes with clear commit messages.
+3. Ensure `cargo test` passes for any backend changes.
+4. Open a pull request describing what you changed and why.
+
+Please be respectful and constructive in all interactions.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
