@@ -1,0 +1,18 @@
+# Rust
+backend/target/
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+backend/.env
+
+# Node / SvelteKit
+frontend/node_modules/
+frontend/.svelte-kit/
+frontend/build/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# OS
+.DS_Store
+Thumbs.db
